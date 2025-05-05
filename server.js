@@ -6,7 +6,7 @@ app.get("/klines", async (req, res) => {
   const {
     symbol = "BTCUSDT",
     interval = "1",
-    category = "spot",
+    category = "linear",
     start,
     end,
     limit = "1000",
